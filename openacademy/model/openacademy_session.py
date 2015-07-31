@@ -1,4 +1,4 @@
-from openerp import fields, models
+from openerp import api, fields, models
 
 class Session(models.Model):
     _name = 'openacademy.session'
